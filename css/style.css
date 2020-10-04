@@ -1,38 +1,53 @@
 html {
-  margin-left: 20px;
-  margin-right: 20px;
+  background-color: #C0C0C0;
 }
-#table1 {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-#table1,
-th,
-td {
-  padding-left: 10px;
-  border: 1px solid #d3d3d3;
-}
-
-.grid-container {
-  margin-top: 20px;
-  display: flex;
-}
-
-.grid-container h4 {
-  font-style: italic;
-}
-
-.grid-container img {
-  width: 50%;
-}
-
-.grid-item {
-  margin-left: 7rem;
-  padding-top: 10%;
-}
-
-footer {
-  margin-top: 7rem;
+header {
   text-align: center;
+  color: #000000;
+  margin: 40px 40px;
+}
+#judul {
+  color: #FF0000;
+  margin-bottom: 0%;
+}
+header p {
+  margin-top: 0%;
+}
+.jumbotron {
+  display: flex;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.gambar img {
+  width: 97%;
+}
+.lorem {
+  margin-left: 25px;
+  margin-bottom: 17px;
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.judulorem {
+color: #FF0000;
+}
+
+.text {
+  padding-left: 15px;
+}
+button {
+  font-size: 22px;
+  background-color: #FF0000;
+  color: wheat;
+  border: 0px;
+  width: 100px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin-top: 25%;
+  color: #000000;
 }
